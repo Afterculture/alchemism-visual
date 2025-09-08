@@ -139,7 +139,7 @@
 		{#if !makeRecommendation}
 			<div
 				in:fade
-				class="flex-grow max-w-4xl mx-auto w-full md:pt-20  flex flex-col items-center justify-center"
+				class="flex-grow max-w-4xl mx-auto w-full md:pt-20 flex flex-col items-center justify-center"
 			>
 				<Home
 					on:click={() => {
