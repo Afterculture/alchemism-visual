@@ -130,7 +130,7 @@
 				bind:value={specificDescriptors}
 				class="bg-white/40 border border-white/0 p-2 rounded-md placeholder:text-slate-800 text-slate-900 w-full h-20 font-medium"
 				placeholder="Ex. Must have at least 2 seasons and be on Netflix or Hulu."
-			/>
+			></textarea>
 			<button
 				on:click
 				class={`${

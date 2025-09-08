@@ -40,7 +40,7 @@
 				}
 			});
 			if (recommendations.length > lastLength) {
-				animateScroll.scrollToBottom({ duration: 1500 });
+				animateScroll.scrollToBottom();
 			}
 		}
 	}
@@ -126,7 +126,7 @@
 			class={`${
 				makeRecommendation ? 'backdrop-blur-md' : ''
 			}  flex flex-col items-center justify-center min-h-screen w-full h-full bg-gradient-to-br from-slate-900/80 to-black/90`}
-		/>
+		></div>
 	</div>
 
 	<div class="absolute inset-0 px-6 flex flex-col h-screen overflor-auto">

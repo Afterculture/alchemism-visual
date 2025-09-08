@@ -32,7 +32,7 @@ async function updateUserRequestData(userIP: string, data: UserRequestData) {
 
 // Middleware function to enforce rate limits
 async function rateLimitMiddleware(request: Request) {
-	const userIP = request.headers.get('x-forwarded-for') || request.headers.get('cf-connecting-ip');
+	const userIP = request.headers.get('x-forwarded-for') || request.headers.get('cf-connecting-ip') || 'unknown';
 	const userRequests = await getUserRequestData(userIP);
 
 	// Check if the user has made requests before

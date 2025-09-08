@@ -31,12 +31,12 @@
 				<div
 					class="hidden md:block h-[250px] flex-none w-1/5 bg-cover bg-center"
 					style={`background-image: url(${data.Poster})`}
-				/>
+				></div>
 				<div
 					class="md:hidden z-10 absolute inset-0 bg-cover bg-center"
 					style={`background-image: url(${data.Poster})`}
 				>
-					<div class="w-full h-full bg-black/80 bg-blur-sm" />
+					<div class="w-full h-full bg-black/80 bg-blur-sm"></div>
 				</div>
 
 				<div class="z-40 flex flex-col justify-between md:ml-6 pt-32 md:pt-0">
@@ -108,7 +108,7 @@
 					</svg>
 				</div>
 				<div class="md:hidden z-10 absolute inset-0 bg-cover bg-center">
-					<div class="w-full h-full bg-black/80 bg-blur-sm" />
+					<div class="w-full h-full bg-black/80 bg-blur-sm"></div>
 				</div>
 
 				<div class="z-40 flex flex-col justify-between md:ml-6">
@@ -173,7 +173,7 @@
 				</svg>
 			</div>
 			<div class="md:hidden z-10 absolute inset-0 bg-cover bg-center">
-				<div class="w-full h-full bg-black/80 bg-blur-sm" />
+				<div class="w-full h-full bg-black/80 bg-blur-sm"></div>
 			</div>
 
 			<div class="z-40 flex flex-col justify-between md:ml-6">

@@ -45,7 +45,7 @@
 		</svg>
 	</div>
 	<div class="md:hidden z-10 absolute inset-0 bg-cover bg-center">
-		<div class="w-full h-full bg-black/80 bg-blur-sm" />
+		<div class="w-full h-full bg-black/80 bg-blur-sm"></div>
 	</div>
 
 	<div class="z-40 flex flex-col justify-between md:ml-6 w-full">
@@ -54,10 +54,10 @@
 				<div class="flex items-end">
 					<div
 						class="bg-gradient-to-r from-white/90 via-white/40 to-white/90 background-animate h-6 w-40 rounded-full"
-					/>
+					></div>
 					<div
 						class="h-3 bg-gradient-to-r from-white/50 via-white/20 to-white/50 background-animate w-20 rounded-full ml-2"
-					/>
+					></div>
 				</div>
 			</div>
 			<div class="text-slate-200/90 mb-4 w-full">
@@ -66,13 +66,13 @@
 				{:else}
 					<div
 						class="w-full h-2 rounded-full bg-gradient-to-r from-white/20 via-white/10 to-white/20 background-animate mb-2"
-					/>
+					></div>
 					<div
 						class="w-full h-2 rounded-full bg-gradient-to-r from-white/20 via-white/10 to-white/20 background-animate mb-2"
-					/>
+					></div>
 					<div
 						class="w-1/2 h-2 rounded-full bg-gradient-to-r from-white/20 via-white/10 to-white/20 background-animate"
-					/>
+					></div>
 				{/if}
 			</div>
 		</div>
